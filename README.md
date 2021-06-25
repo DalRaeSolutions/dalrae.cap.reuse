@@ -13,11 +13,11 @@
 ## For prezzo 
 
 ### Intro 
-- Introduction of Tanveer and Jorg. Explain why we're looking at reuse
+- Introduction of Tanveer and Jorg. Mention COVID
+
+- Explain why we're looking at reuse
   - In a complex app, reuse is better than reinventing the wheel
   - Reuse can be a method to separate code 
-  - Benefits of version control? As in, NPM version. 
-  - Multi tenancy
 
 ### Demo time
 

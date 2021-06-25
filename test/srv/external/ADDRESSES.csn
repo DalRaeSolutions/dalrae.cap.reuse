@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "creator": "edmx2csn 1.0.41"
+  },
+  "$version": "0.2",
+  "definitions": {
+    "ADDRESSES.Addresses": {
+      "kind": "entity",
+      "@cds.persistence.skip": true,
+      "elements": {
+        "ID": {
+          "key": true,
+          "type": "cds.UUID"
+        },
+        "street": {
+          "type": "cds.LargeString"
+        },
+        "city": {
+          "type": "cds.LargeString"
+        }
+      }
+    },
+    "ADDRESSES": {
+      "kind": "service"
+    }
+  }
+}
