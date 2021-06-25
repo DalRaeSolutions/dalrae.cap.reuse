@@ -1,9 +1,9 @@
 [submodule "dalrae.cap.reuse.base"]
 	path = dalrae.cap.reuse.base
-	url = ./dalrae.cap.reuse.base
+	url = https://github.com/DalRaeSolutions/dalrae.cap.reuse.base.git
 [submodule "dalrae.cap.reuse.all"]
 	path = dalrae.cap.reuse.all
-	url = ./dalrae.cap.reuse.all
+	url = https://github.com/DalRaeSolutions/dalrae.cap.reuse.all.git
 [submodule "dalrae.cap.reuse.external"]
 	path = dalrae.cap.reuse.external
-	url = ./dalrae.cap.reuse.external
+	url = https://github.com/DalRaeSolutions/dalrae.cap.reuse.external.git
