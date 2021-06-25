@@ -1,0 +1,9 @@
+[submodule "dalrae.cap.reuse.base"]
+	path = dalrae.cap.reuse.base
+	url = ./dalrae.cap.reuse.base
+[submodule "dalrae.cap.reuse.all"]
+	path = dalrae.cap.reuse.all
+	url = ./dalrae.cap.reuse.all
+[submodule "dalrae.cap.reuse.external"]
+	path = dalrae.cap.reuse.external
+	url = ./dalrae.cap.reuse.external
