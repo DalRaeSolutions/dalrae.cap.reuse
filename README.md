@@ -1,22 +1,14 @@
 # Reuse demo 
 
-## We need
-
-- One base application on 4004 to demo base functionality
-- One extended application that imports the base application that runs on 4006
-- One unrelated application that runs on 4005 to import as EDMX 
-- All *deployed* to SQLITE database, not running in memory
-
 ## PREP
 
 ### On main screen:
-- fullscreen browser 
+- fullscreen browser. run projects with `npm run dev` as the ports are already set
+  - http-server on the `reuse-demo` folder, list of links on port 8080
   - tab 1: addresses on port 4006
   - tab 2: base on port 4005
   - tab 3: extension on port 4004
-
 - fullscreen VSCode in `reuse-demo` folder
-
 
 ## For prezzo 
 
@@ -28,6 +20,8 @@
   - Multi tenancy
 
 ### Demo time
+
+**DEMO** 
 - show app running on port 4006 to show list of addresses
 - show app running on port 4005 to show list of orders and customers
 - show app running on port 4004 that has added fields and customer addresses
@@ -41,6 +35,8 @@
 ### Explanation of how to package a service and do the imports
 
 - creating and importing the npm package, importing EDMX file
+
+**DEMO** 
 ```
 npm pack ./dalrae.cap.reuse.base
 mkdir extend_demo
@@ -60,6 +56,7 @@ cds import ../ADDRESSES.edmx
 - Versioning
   - we've used `npm pack`, can also use npmjs or host your own
   - The NPM package takes its version from `package.json`, mta uses `mta.yml` package version and deployed version can misalign
+    - **DEMO** Show a a few `packs`
   - having multiple apps with multiple versions of the base will make for a complicated landscape 
   - changes to imported services are immediate and the extensions should be considered before changing them
 

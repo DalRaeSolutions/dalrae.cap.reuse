@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+    <style>
+      a {
+        text-decoration: none;
+      }
+
+      li {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <ol>
+      <li>
+        Addresses
+        <ol>
+          <li><a target="_blank" href="http://localhost:4006">CDS</a></li>
+        </ol>
+      </li>
+      <li>
+        Our base
+        <ol>
+          <li><a target="_blank" href="http://localhost:4005">CDS</a></li>
+          <li><a target="_blank" href="http://localhost:4005/admin/Orders">Orders</a></li>
+          <li><a target="_blank" href="http://localhost:4005/admin/Customers">Customers</a></li>
+          <li><a target="_blank" href="http://localhost:4005/admin/Orders?$expand=customer">expanded</a></li>
+        </ol>
+      </li>
+      <li>
+        The extensions
+        <ol>
+          <li><a target="_blank" href="http://localhost:4004">CDS</a></li>
+          <li><a target="_blank" href="http://localhost:4004/admin/Orders?$expand=items">Orders with items</a></li>
+          <li><a target="_blank" href="http://localhost:4004/admin/Customers?$expand=address">Customers with address</a></li>
+        </ol>
+      </li>
+
+    </ol>
+  </body>
+</html>
